@@ -1,8 +1,7 @@
-#ifndef TIME_PARSER
-#define TIME_PARSER
+#ifndef INTERNAL_RTC_CLOCK
+#define INTERNAL_RTC_CLOCK
 
 #include <Arduino.h>
-#include <Time.h>
 
 class InternalRTCTimer {
 public:
@@ -23,4 +22,4 @@ private:
 time_t cvt_date(char const* date);
 
 
-#endif //TIME_PARSER
+#endif //INTERNAL_RTC_CLOCK
